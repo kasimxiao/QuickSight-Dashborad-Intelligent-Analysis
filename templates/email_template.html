@@ -1,0 +1,23 @@
+<html>
+<head>
+    <style>
+        body { font-family: Arial, sans-serif; }
+        .container { max-width: 800px; margin: 0 auto; padding: 20px; }
+        .header { font-size: 24px; color: #333; margin-bottom: 20px; }
+        .image-container { margin: 20px 0; }
+        .analysis { background-color: #f9f9f9; padding: 15px; border-radius: 5px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">{description} - 分析报告 ({datetime})</div>
+        <div class="image-container">
+            <img src="cid:dashboard_image" style="max-width: 100%; height: auto;">
+        </div>
+        <div class="analysis">
+            <h3>分析结果:</h3>
+            <p>{analysis_text}</p>
+        </div>
+    </div>
+</body>
+</html>
